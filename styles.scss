@@ -1,0 +1,14 @@
+// góð regla að geyma breytur og þess háttar í sér skrá
+@import "scss/config";
+
+main { /* stylelint-disable-line */
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #0f0;
+}
+
+@import "scss/button";
+@import "scss/list";
