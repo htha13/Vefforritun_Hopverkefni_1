@@ -1,14 +1,24 @@
-// góð regla að geyma breytur og þess háttar í sér skrá
 @import "scss/config";
 
-main { /* stylelint-disable-line */
-  max-width: $max-width;
-  margin: 0 auto;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  background-color: #0f0;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-@import "scss/button";
-@import "scss/list";
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  // TODO fleiri grunn stillingar
+}
+
+
+
+// TODO sækja allar sass skrár
+@import "scss/...";
