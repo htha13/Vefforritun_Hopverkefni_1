@@ -1,11 +1,4 @@
-$max-width: 1200px;
-
-$gutter: 20px;
-
-$font-main: Open Sans, helvetica, arial, sans-serif;
-$font-heading: Oswald, Verdana, serif;
-
-$fontSize: 16px;
+$gutter: 1.25em;
 
 $colors: (
   black: #000,
@@ -15,3 +8,39 @@ $colors: (
   lightYellow: #fcffd2,
   weirdPink: #cc9694
 );
+
+.main {
+  padding-right: $gutter;
+  padding-left: $gutter;
+  margin: 0 auto;
+}
+
+.image {
+  max-width: 100%;
+}
+
+/* grid fyrir efni, setja þarf upp í html */
+
+.grid__row {
+  display: flex;
+  margin-top: $gutter;
+  margin-right: -10px;
+  margin-left: -10px;
+  flex-direction: row;
+}
+
+.grid__col {
+  display: flex;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  flex-direction: column;
+
+  * {
+    margin-left: 0;
+  }
+}
+
+.heading {
+  font-family: $fontHeading;
+}
