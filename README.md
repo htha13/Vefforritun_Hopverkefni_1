@@ -1,5 +1,11 @@
 # Vefforritun_Hopverkefni_1
 
+Nemendur: Haukur Þór Ágústsson,
+
+myndir skulu geymdar í /img
+undirsíður skulu geymdar í /pages
+sass css skrár skulu geymdar í /scss (fyrir utan styles.scss)
+
 
 Til að keyra:
 
@@ -14,6 +20,3 @@ Til að keyra stylelint:
 npm install
 npm run lint
 ```
-
-P.S. Bash er bara forritið í tölvunni ykkar sem þið gerið skipanirnar í.
-Hjá mér í windows heitir forritið "git-bash.exe" en í ubuntu eða mac er það eitthvað annað ("terminal" held ég að það heiti þar).
